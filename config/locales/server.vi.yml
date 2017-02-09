@@ -1,5 +1,6 @@
 vi:
   site_settings:
+    solved_enabled: "Kích hoạt plugin giải quyết, cho phép người dùng lựa chọn cách giải quyết hay nhất cho chủ đề"
     allow_solved_on_all_topics: "Cho phép người dùng lựa chọn cách giải quyết trên tất cả chủ đề (mặc định điều khiển qua chỉnh sửa Danh mục)"
     accept_all_solutions_trust_level: "Cấp độ tin tưởng tối thiểu để chấp nhận cách giải quyết về bất kỳ chủ đề (ngay cả khi không OP)"
   reports:
@@ -7,3 +8,7 @@ vi:
       title: "Chấp nhận cách giải quyết"
       xaxis: "Ngày"
       yaxis: "Tổng số"
+  solved:
+    no_solutions:
+      self: "Bạn chưa có cách giải quyết nào được chấp nhận."
+      others: "Không chấp nhận cách giải quyết."
